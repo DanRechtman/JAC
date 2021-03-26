@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-.vscode
-=======
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -130,4 +128,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> 63d510a7d1dc80dfc1b2de1397ba111614a924ab
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+**/.history
