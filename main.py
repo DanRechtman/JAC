@@ -14,8 +14,8 @@ class Click(object):
             #TODO: Implement the click function when move is false
             print("Not implemented")
 
-c = Click(move=True)
 
-
-c.click()
+if __name__ == "__main__":
+    c = Click(move=True)
+    c.click()
         
